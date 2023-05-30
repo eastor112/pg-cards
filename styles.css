@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'roboto';
+}
+
+.top-header {
+  background-color: #1CD1B0;
+  height: 38px;
+  font-size: 15px;
+  padding: 10px 27px;
+}
+
+.main-header {
+  height: 101px;
+  font-size: 40px;
+  padding: 28px 27px 26px;
+  background-color: #00669F;
+  font-weight: 400;
+}
+
+footer {
+  height: 51px;
+  font-size: 16px;
+  color: #FFF9F9;
+  background: #00669F;
+  padding: 16px;
+}
+
+
+.cards {
+  height: 336px;
+  margin: 155px 32px;
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  width: 300px
+}
+
+.top-card {
+  position: relative;
+}
+
+.heart-icon {
+  position: absolute;
+  color: #fff;
+  top: 10px;
+  left: 15px;
+}
+
+.batman {
+  position: absolute;
+  border-radius: 50%;
+  overflow: hidden;
+  height: 120px;
+  width: 120px;
+  bottom: -60px;
+  left: 30%;
+}
+
+.batman img {
+  height:100%
+}
